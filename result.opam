@@ -8,7 +8,7 @@ license: "BSD-3-Clause"
 build: [["dune" "build" "-p" name "-j" jobs]]
 depends: [
   "ocaml"
-  "dune" {>= "1.0"}
+  "dune" {build >= "1.0"}
 ]
 synopsis: "Compatibility Result module"
 description: """
